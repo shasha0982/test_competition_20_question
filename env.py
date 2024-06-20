@@ -1,10 +1,12 @@
+from kaggle_environments import evaluate, make
+
 # Create the environment
 env = make("llm_20_questions", debug=True)
 
 # Reset the environment for a new episode
 env.reset()
 
-# Run an episode with the agent function directly
+# Run an episode with the submission.py file (we use the agent function directly)
 env.run([agent, agent, agent, agent])
 
 # Render the environment to visualize the game
