@@ -2,7 +2,7 @@ import json
 import random
 
 # Load keywords from the provided file
-with open('/kaggle/input/llm-20-questions/llm_20_questions/keywords.py') as file:
+with open('keywords.py') as file:
     file_content = file.read()
 
 # Extract JSON part
