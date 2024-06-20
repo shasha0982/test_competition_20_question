@@ -1,0 +1,10 @@
+{
+    "observations": [
+        {"question": "Translate English to German: How old are you?"},
+        {"question": "Translate English to French: What is your name?"}
+    ],
+    "correct_actions": [
+        "Wie alt bist du?",
+        "Comment vous appelez-vous?"
+    ]
+}
