@@ -1,5 +1,3 @@
-# setup submission file
-
 import json
 import random
 
